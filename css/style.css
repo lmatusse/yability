@@ -1,0 +1,59 @@
+.page
+{
+    display: inline-block;
+    line-height: 55px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+
+}
+.n
+{
+    float: right;
+}
+.foo
+{
+    background-color: rgb(102, 97, 97);
+    margin-top: 25%;
+    position:relative; 
+    width: 100%
+    
+}
+.foo1
+{
+    list-style: none;
+    display: inline;
+    float: right;
+    
+}
+.foo2
+{
+    float: left;
+    
+}
+.l1
+{
+
+    list-style: none;
+    display: inline;
+}
+.l2{
+
+    list-style: none;
+    display: inline;
+}
+ul li{
+    display: inline;
+}
+.link
+{
+    text-decoration: none;
+    color: black;
+}
+.copy
+{
+    margin-top: 16%;
+}
+ul{
+
+}
