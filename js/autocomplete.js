@@ -1,21 +1,57 @@
 $(function(){
-    var availableTags = [
-   "Laranja",
-   "Banana"
+    var frutas = [
+      "Abacate",
+"Abacaxi",
+"Abiu",
+"Abricó",
+"Abrunho",
+"Açaí",
+"Acerola",
+"Akee",
+"Alfarroba",
+"Ameixa",
+"Amêndoa",
+"Amora",
+"Ananás",
+"Anona",
+"Araçá",
+"Arando",
+"Araticum",
+"Ata",
+"Atemoia",
+"Avelã",
+"Abacate",
+"Abacaxi",
+"Babaco",
+"Banana",
+"Caju",
+"Castanha",
+"Cereja",
+"Figo",
+"Framboesa",
+"Goiaba",
+"Kiwi",
+"Laranja",
+"Lima",
+"Limão",
+"Maçã",
+"Manga",
+"Pera",
+"Pessêgo",
+"Uva"
     ];
     
     $(document).on('focus','.texto', function(){
-       // este if verifica se o campo já tem autocomplete
        if( !$(this).hasClass("ui-autocomplete-input") ){
           $(this).autocomplete({
-             source: availableTags
+             source: frutas
         });
        }
     });
-    
-    $("#addicionar").on("click", function(){
+    $ .on("click", function(){
        
        $("#box").append('<input class="texto">');
+       
        
     });
     

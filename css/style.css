@@ -11,10 +11,10 @@
 {
     float: right;
 }
-.foo
+footer
 {
     background-color: rgb(102, 97, 97);
-    margin-top: 25%;
+    margin-top: 18.5%;
     position:relative; 
     width: 100%
     
@@ -67,9 +67,8 @@ ul li {
    {
        width: 500px;
        border-radius: 15px;
-      te
+       padding-left: 50px;
    }
-   
 
 .has-search .form-control-feedback {
     position: absolute;
@@ -89,9 +88,24 @@ ul li {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center
+            align-items: center;
+            border-radius: 20px;
+            
 }
 .mi:hover
 {
     cursor: pointer;
+}
+.app
+{
+    margin-left: 10px;
+}
+#ui-id-1
+{
+    background-color:rgba(255,255,255, 1.0);
+       box-shadow: 0px 0px 4px rgba(0,0,0, 0.4);
+       border-radius: 0px 0px 15px 15px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
 }
