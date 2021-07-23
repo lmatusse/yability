@@ -4,7 +4,7 @@ $(function(){
    "Banana"
     ];
     
-    $(document).on('focus','.descri', function(){
+    $(document).on('focus','.texto', function(){
        // este if verifica se o campo já tem autocomplete
        if( !$(this).hasClass("ui-autocomplete-input") ){
           $(this).autocomplete({
@@ -15,7 +15,7 @@ $(function(){
     
     $("#addicionar").on("click", function(){
        
-       $("#box").append('<input class="descri">');
+       $("#box").append('<input class="texto">');
        
     });
     
