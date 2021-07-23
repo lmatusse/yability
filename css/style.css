@@ -67,6 +67,7 @@ ul li {
    {
        width: 500px;
        border-radius: 15px;
+      te
    }
    
 
@@ -78,6 +79,19 @@ ul li {
     height: 2.375rem;
     line-height: 2.375rem;
     text-align: center;
-    pointer-events: none;
+    pointer-events: painted;
     color: #aaa;
+}
+.box
+{
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center
+}
+.mi:hover
+{
+    cursor: pointer;
 }
